@@ -119,15 +119,35 @@ Social choice theory has thus focused primarily on identifying desirable propert
 \subsection{Voting Systems}
 Social choice theorists have studied many voting methods. I will describe a few which are relevant to this prelim (Brandt et al., 2012).
 
-Condorcet method. A majority vote is conducted for each pair of proposals. If any proposal wins against all others, it is the winner. Such a winner is not guaranteed to exist.
-
-Dodgson's method extends the Condorcet method. For each alternative, the Dodgson score is the total number of adjacent pairs in the profile that need to be re-ordered to make that alternative a Condorcet winner. If a Condorcet winner exists, its Dodgson score is 0 and it wins. Calculating the Dodgson winner is NP-hard.
-
-Borda count. Each alternative receives a score: the total number of proposals less popular than it over all individuals. This score is its Borda count, and the proposal with the highest Borda count is the winner. This winner can be found in polynomial time.
-
-Copeland rule. Majority votes are held between each pair of proposals. A proposal's Copeland score is the number of pairwise elections won minus the number lost. The proposal with the highest score wins.
-
-Ranked Pairs / Tideman method. Pairwise majority votes are held. The results are ranked in order of descending margin. In this order, the winner of each comparison is placed above the loser in the social preference, unless doing so would create an intransitive cycle. The proposal with the highest social welfare value wins. Tideman can be interpreted as a greedy approximation of minimizing the dissatisfaction of voters with the social preference (Meskanen \& Nurmi, 2006).
+\begin{description}
+\item[Condorcet method]{(Condorcet, 1785).
+A majority vote is conducted for each pair of proposals.
+If any proposal wins against all others, it is the winner \.
+Such a winner is not guaranteed to exist.}
+\item[Dodgson's Method]{(Dodgson, 1876).
+An extension of the Condorcet method.
+For each alternative, the Dodgson score is the total number of adjacent pairs
+in the profile that need to be re-ordered to make that alternative a Condorcet
+winner.
+If a Condorcet winner exists, its Dodgson score is 0 and it wins.
+Calculating the Dodgson winner is NP-hard.}
+\item[Borda count.]{(de Borda, 1781). Each alternative receives a score:
+the total number of proposals less popular than it over all individuals.
+This score is its Borda count, and the proposal with the highest Borda count is
+the winner. This winner can be found in polynomial time.}
+\item[Copeland rule]{(Copeland, 1781).
+Majority votes are held between each pair of proposals.
+A proposal's Copeland score is the number of pairwise elections won minus
+the number lost. The proposal with the highest score wins.}
+\item[Ranked Pairs / Tideman method.]{(Tideman, 1987).
+Pairwise majority votes are held.
+The results are ranked in order of descending margin. In this order,
+the winner of each comparison is placed above the loser in the social
+preference, unless doing so would create an intransitive cycle.
+The proposal with the highest social welfare value wins.
+Tideman can be interpreted as a greedy approximation of minimizing the
+dissatisfaction of voters with the social preference (Meskanen \& Nurmi, 2006).}
+\end{description}
 
 \subsection{Spatial Models}
 A noteworthy class of social welfare functions represents proposals and voter preferences as points in some mathematical space, and are thus called spatial models. One benefit of this representation is that positions can be compared using mathematically defined distance measures.
