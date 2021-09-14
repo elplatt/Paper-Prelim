@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2016)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: prelim.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: prelim.bib
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Reallocated field_info (elt_size=4) to 10040 items from 5000.
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Warning--No journal in barabasi_linked:_2003
+Warning--No address in copeland_reasonable_1951
+Warning--No journal in english_comprehensive_1958
+Warning--No journal in geiger_does_2009
+Warning--No institution in hoebel_man_1958
+Warning--No address in hoebel_man_1958
+Warning--No journal in leuf_wiki_2001
+Warning--No journal in march_organizations._1958
+Warning--No journal in rapoport_mathematical_1963
+You've used 144 entries,
+            6951 wiz_defined-function locations,
+            2083 strings with 109661 characters,
+and the built_in function-call counts, 259497 in all, are:
+= -- 32860
+> -- 2059
+< -- 11740
++ -- 11626
+- -- 291
+* -- 15726
+:= -- 45267
+add.period$ -- 625
+call.type$ -- 144
+change.case$ -- 2488
+chr.to.int$ -- 0
+cite$ -- 297
+duplicate$ -- 7048
+empty$ -- 10673
+format.name$ -- 3221
+if$ -- 50965
+int.to.chr$ -- 0
+int.to.str$ -- 436
+missing$ -- 0
+newline$ -- 3488
+num.names$ -- 1152
+pop$ -- 4681
+preamble$ -- 1
+purify$ -- 576
+quote$ -- 0
+skip$ -- 18251
+stack$ -- 0
+substring$ -- 12918
+swap$ -- 4056
+text.length$ -- 407
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 13184
+warning$ -- 9
+while$ -- 1122
+width$ -- 0
+write$ -- 4185
+(There were 9 warnings)
